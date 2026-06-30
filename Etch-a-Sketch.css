@@ -1,0 +1,12 @@
+.container{
+    width: 450px;
+    height: 450px;
+    border: 2px solid red;
+    justify-self: center;
+}
+
+.tile{
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+}
