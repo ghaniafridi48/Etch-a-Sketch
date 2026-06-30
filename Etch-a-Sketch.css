@@ -1,8 +1,14 @@
+
+*{
+    box-sizing: border-box;
+}
+
 .container{
     width: 450px;
     height: 450px;
     border: 2px solid red;
-    justify-self: center;
+    display: flex;  
+    flex-wrap: wrap;  
 }
 
 .tile{
@@ -10,3 +16,4 @@
     width: 25px;
     height: 25px;
 }
+
